@@ -1,0 +1,39 @@
+.container-under-header{
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    border-bottom: 1px solid black;
+}
+.section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 4vh;
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 3px;
+    justify-content: space-between;
+    gap: 1em;
+}
+.tith{
+    cursor: pointer;
+}
+.section:hover{
+    background-color: rgba(138, 43, 226, 0.3);
+    border-top: 2px solid rgb(138, 43, 226);
+}
+.ser-console{
+    padding-right: 1em;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.dropdown{
+    cursor: pointer;
+}
+.side-icon{
+    display: flex;
+    cursor: pointer;
+}

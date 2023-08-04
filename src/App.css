@@ -1,0 +1,15 @@
+.header{
+  width: 100%;
+  display: flex;
+  background-color: blueviolet;
+  height: 10vh;
+}
+.up_header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  width: 100%;
+}
+

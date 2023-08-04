@@ -1,0 +1,64 @@
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .icon-dropdown {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 40px;
+    border-radius: 4px;
+  }
+  
+  .dropdown {
+    border: none;
+    background-color: transparent;
+    width: 20px;
+  }
+  
+  .icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .icon-box:hover{
+    background-color: #f0f0f0;
+  }
+  .icon-boxe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .icon-boxe:hover{
+    background-color: rgb(222, 222, 222);
+  }
+  
+  .plus-icon,
+  .question-icon,
+  light-mode-icon,
+  notifications-icon,
+  profile-icon {
+    color: #888;
+    font-size: 20px;
+  }
+  
+  .star-icon {
+    color: #f7b500;
+    font-size: 20px;
+  }
+  
+  /* Add more styling as needed */
+  

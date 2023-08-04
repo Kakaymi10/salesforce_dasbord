@@ -1,0 +1,33 @@
+/* Assuming these styles are applied to the parent element of the component */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 5px;
+  }
+  
+  .label {
+    margin-bottom: 0px;
+    font-size: small;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid #b0acac;
+    padding-bottom: 0px;
+  }
+  
+  .pencilIcon {
+    margin-right: 0px;
+    color: #ccc;
+  }
+  
+  .input {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 90%;
+  }
+  

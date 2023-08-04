@@ -1,0 +1,37 @@
+.searchBar{
+  display: flex;
+  align-items: center;
+  width: 33vw;
+}
+.search-input{
+  height: 27px;
+  border: none;
+  width: 30vw;
+}
+.search-button{
+  height: 29px;
+  border: none;
+}
+.select_filter{
+  height: 30px;
+  border: none;
+  width: 3em;
+}
+
+.searchBar {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .filter-dropdown,
+  .search-input-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc; /* Add grey border */
+    border-radius: 4px; /* Add border radius */
+  }
+  
+  .filter-dropdown {
+    margin-right:-2px; /* Add some spacing between the parts */
+  }
