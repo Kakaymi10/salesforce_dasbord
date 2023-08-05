@@ -1,6 +1,7 @@
 import React from "react";
 import './Body.css'
 import Leftblock from "./leftBlock/LeftBlock";
+import Central from "./centralBlock/central";
 
 function Body(){
     return(
@@ -9,7 +10,7 @@ function Body(){
                 <Leftblock />
             </div>
             <div className="central-block">
-
+                <Central />
             </div>
             <div className="right-block">
 

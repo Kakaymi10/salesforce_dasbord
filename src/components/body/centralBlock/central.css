@@ -1,0 +1,99 @@
+.central_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eae7e7;
+    border-radius: 5px;
+    padding: 0.4em;
+}
+.cent_h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bag{
+    font-size: 2em;
+    margin-right: 5px;
+    color: orange;
+}
+.maintain{
+    margin: 0;
+}
+.follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    margin-left: 0.7em;
+}
+.cent-body{
+    background-color: white;
+    padding-bottom: 1em;
+    height: 90vh;
+    padding: 1em;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.cent-body-h{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    border-bottom: 2px solid #ccc;
+}
+.feed{
+    font-weight: bold;
+    border-bottom: 3px blue solid;
+    cursor: pointer;
+}
+.cent-b-search{
+    border: 2px solid #ccc;
+    margin-top: 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.cent-b-post{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    background-color: #ccc;
+    align-items: center;
+}
+.cent-b-post-post{
+    background-color: white;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    
+}
+.cent-b-share{
+    display: flex;
+    justify-content: center;
+    padding: 0.7em;
+    gap: 0.5em;;
+}  
+.body-inp{
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+.body-share{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 4vh;
+    cursor: pointer;
+    
+}
+.most-recent{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
